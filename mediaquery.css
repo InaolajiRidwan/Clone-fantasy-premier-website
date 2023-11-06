@@ -1,0 +1,138 @@
+@media screen  and (max-width: 768px){
+    #container {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    nav {
+        display: none;
+    }
+
+    header {
+        margin-top: -10px;
+    }
+
+    header .header-content img {
+        height: 50px;
+        margin-top: 15px;
+    }
+
+    header .dropdown-header {
+        display: none;
+    }
+
+
+
+    .fantasy-dropdown {
+        display: none;
+    }
+
+    .football-community {
+        display: none;
+    }
+
+    .about {
+        display: none;
+    }
+    .more {
+        display: none;
+    }
+
+    .summer {
+        display: none;
+    }
+
+    #sect {
+        display: none;
+    }
+
+    #fantasy-pict {
+        margin-top: -10px;
+        height: 150px;
+    }
+
+    #fantasy-pict .fantasy-logo .fantasy-image1 img {
+        height: 50px;
+        margin-left: -80px;
+        margin-top: 40px;  
+    }
+    #fantasy-pict .fantasy-logo .fantasy-image1 h1 {
+        font-size: 25px;
+        margin-top: 50px;
+        margin-left: -5px;
+    }
+
+    #fantasy-pict .fantasy-image2 img {
+        height: 100px;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+
+    #fantasy-pict .fantasy-button {
+        display: flex;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    #fantasy-pict .fantasy-button button {
+        height: 50px;
+        width: 60px;
+        margin-left: 10px;
+    }
+
+    #login {
+        display: inline;
+    }
+
+    #login  .input-details {
+        display: inline;
+    }
+
+
+
+    #login .login-text h3 {
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    #login .input-details input {
+        width: 100vw;
+    }
+
+    #login .button-login button {
+        width: 100vw;
+        margin-left: 5px;
+    } 
+
+    #line .line-cont h1 {
+        width: 200px;
+        font-weight: lighter;
+    }
+
+    #links {
+        display: flex;
+        margin-left: 40px;
+    }
+
+    #links .link-fk button {
+        width: 150px;
+    }
+
+    #links .link-tw button {
+       width: 150px;
+    }
+    
+    #links .link-gle button {
+        width: 150px;
+    }
+
+                
+    #links .link-apple button {
+        width: 150px;
+    }
+
+    #register {
+        display: inline;
+        background-color: rgb(55, 0, 60);
+    }
+}

@@ -1,0 +1,1083 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+
+nav {
+    display: flex;
+}
+
+nav .text {
+    margin-left: 200px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+nav .club-logos {
+    margin-left: 100px;
+}
+
+nav .club-logos img {
+    height: 35px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+header {
+    background: rgb(55, 0, 60);
+    height: 75px;
+    margin-top: 20px;
+    display: flex;
+}
+
+header .header-content img {
+    margin-top: -30px;
+    height: 130px;
+    margin-left: 30px;
+}
+
+/* premier league start */
+.btn {
+    background-color: rgb(55, 0, 60);
+    color: white;
+    border: none;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+
+
+.dropdown-header {
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.premier-flexy {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.premier-flexy .flexy1 {
+    display: flex;
+    background-color: rgb(150, 60, 255);
+    width: 200px;
+    margin-left: 5px;
+}
+
+.premier-flexy a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: underline;
+    display: flex;
+    font-size: small;
+}
+
+.dropdown-header:hover .premier-flexy {
+    display: block;
+    background-color: white;
+}
+
+/* premier league ends */
+
+
+/* fantasy start */
+
+.btn-fantasy {
+    background-color: rgb(55, 0, 60);
+    color: white;
+    border: none;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.fantasy-dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.fantasy-flex {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    padding-top: -200px;
+}
+
+.fantasy-flex .fantasy-flexy {
+    display: flex;
+    background-color: blueviolet;
+    width: 200px;
+   
+}
+
+.fantasy-flexy a {
+    color:  white;
+    padding: 12px 16px;
+    text-decoration: underline;
+    display: flex;
+    font-size: small;
+}
+
+.fantasy-dropdown:hover .fantasy-flex {
+    display: block;
+    background-color: rgb(150, 60, 255);
+}
+
+/* fantasy */
+
+/* football and community  start*/
+
+.btn-football {
+    background-color: rgb(55, 0, 60);
+    color: white;
+    border: none;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.football-community {
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.football-flex {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    padding-top: -200px;
+}
+
+.football-flex .football-flexy {
+    display: flex;
+    background-color: blueviolet;
+    width: 340px;
+}
+
+
+.football-flexy a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: underline;
+    display: flex;
+    font-size: small;
+    margin-left: 20px;
+}
+
+.football-community:hover .football-flex {
+    display: block;
+}
+
+/* football community ends */
+
+
+/* about start */
+
+.about {
+    position: relative;
+    display: inline-block;
+    margin-left: 85px;
+}
+
+.btn-about {
+    background-color: rgb(55, 0, 60);
+    color: white;
+    border: none;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.about-flex {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    padding-top: -200px;
+    margin-left: -80px;
+}
+
+.about-flex .about-flexy {
+    display: flex;
+    background-color: blueviolet;
+    
+}
+
+.about-flexy a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: underline;
+    display: flex;
+    font-size: small;
+    margin-left: 20px
+}
+
+.about:hover .about-flex {
+    display: block;
+}
+
+/* about ends */
+
+
+/* more starts */
+
+
+.more {
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.btn-more {
+    background-color: rgb(55, 0, 60);
+    color: white;
+    border: none;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.more-flex {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    padding-top: -200px;
+    margin-left: -80px;
+    width: 250px;
+    margin-left: 3px;
+}
+
+.more-flex .more-flexy {
+    display: flex;
+    background-color: blueviolet;
+}
+
+
+
+.more-flexy a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: underline;
+    display: flex;
+    font-size: small;
+    margin-left: 20px
+}
+
+.more:hover .more-flex {
+    display: block;
+}
+
+
+/* more ends */
+
+
+
+/* summer starts */
+
+.summer {
+    margin-left: 250px;
+    border-left: 2px solid white;
+    height: 40px;
+    margin-top: 25px;
+    padding-left: 20px;
+
+}
+
+.summer a {
+    text-decoration: none;
+    color: white;
+}
+
+/* summer ends */
+
+#sect {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 180px;
+}
+
+.sect1 a {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    opacity: 70%;
+}
+
+.sect2 a {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 30px;
+    opacity: 70%;
+}
+
+.sect1  a::after {
+    content: "";
+    position: absolute;
+    background: linear-gradient(to right, rgb(6, 240, 255), rgb(97, 129, 255));
+    height: 8px;
+    width: 90px;
+    margin-left: -70px;
+    margin-top: 65px;
+}
+
+.sect2:hover a {
+    position: absolute;
+    background: linear-gradient(to right, rgb(6, 240, 255), rgb(97, 129, 255));
+    height: 5px;
+    width: 100px;
+}
+
+
+#fantasy-pict {
+    background-image: url(images/w1.jpg);
+    height: 40vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+#fantasy-pict {
+    display: flex;
+}
+
+.fantasy-image1 {
+    display: flex;
+    margin-left: 80px;
+}
+
+.fantasy-image1 h1 {
+    font-size: 80px;
+    margin-top: 80px;
+    font-weight: bolder;
+}
+
+
+.fantasy-button {
+    margin-left: 100px;
+    margin-top: 45px;
+}
+
+.fantasy-button a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.fantasy-button button  {
+    height: 60px;
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(0, 255, 135);
+}
+
+.fantasy-button .home-white {
+    background: white;
+}
+
+.fantasy-button .draft {
+    background: rgb(150, 60, 255);
+}
+
+
+.fantasy-image2 img {
+    height: 250px;
+    margin-top: 78px;
+    margin-left: 250px;
+}
+
+
+#login {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+#login .login-text {
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.input-details {
+    display: flex;
+}
+
+.input-details .input-email h4 {
+    margin-left: 40px;
+    font-weight: lighter;
+
+}
+
+.input-details .input-email input {
+    height: 40px;
+    width: 300px;
+    background: rgb(239, 239, 239);
+    border: none;
+    border-bottom: 1px solid black;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.input-details .input-password h4 {
+    margin-left: 40px;
+    font-weight: lighter;
+
+}
+
+.input-details .input-password input {
+    height: 40px;
+    width: 300px;
+    background: rgb(239, 239, 239);
+    border: none;
+    margin-left: 10px;
+    border-bottom: 1px solid black;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#login .button-login button {
+    width: 250px;
+    height: 55px;
+    background: linear-gradient(to left, rgb(0, 253,54), rgb(3, 241, 246));
+    border: none;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#login .forg-password {
+    margin-top: 35px;
+}
+
+
+#login .forg-password a {
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+} 
+
+
+#line {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+#line .line1 {
+    background-color: black;
+    height: 1px;
+    width: 550px;
+    margin-right: 10px;
+    opacity: 10%;
+}
+
+#line .line-cont {
+    font-size: 10px;
+    margin-top: -10px; 
+}
+
+#line .line2 {
+    background-color: black;
+    height: 1px;
+    width: 550px;
+    margin-left: 10px;
+    opacity: 10%;
+}
+
+#links {
+    display: flex;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.link-fk button {
+    background-color: blue;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.link-fk a {
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+ 
+.link-fk svg {
+    margin-right: 10px;
+}
+
+.link-tw button {
+    background-color: rgb(0, 172, 237);
+    color: black;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+
+.link-tw a {
+    text-decoration: none;
+    color: white;
+}
+
+.link-tw svg {
+    margin-right: 10px;
+}
+
+.link-gle button {
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 50px;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+
+.link-gle a {
+    text-decoration: none;
+    color: black;
+    border: none;
+}
+
+.link-gle img {
+    margin-right: 20px;
+}
+
+.link-apple button {
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-left: 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+.link-apple a {
+    text-decoration: none;
+    color: white;
+}
+
+.link-apple svg {
+    margin-right: 10px;
+}
+
+
+
+#register {
+    background-color: rgb(55, 0, 60);
+    height: 120px;
+    width: 1200px;
+    justify-self: center;
+    margin-left: 100px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.register-logo {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.register-logo h1 {
+    color: white;
+    margin-top: 15px;
+}
+
+.register-content {
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.register-content h2 {
+    color: rgb(0, 255, 135);
+    margin-bottom: 10px;
+}
+
+.register-content h3 {
+    width: 650px;
+    color: white;
+    font-weight: lighter;
+}
+
+#register .btn-register button {
+    background: linear-gradient(to right, rgb(6, 240, 255), rgb(97, 129, 255));
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+#register .btn-register a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#jersey {
+    display: flex;
+    margin-top: 50px;
+}
+
+
+
+
+.jersey-a {
+    display: flex;
+    margin-left: 90px;
+    
+}
+
+
+.jersey-b {
+    display: flex;
+    background: rgb(235, 235, 230);
+    margin-left: 20px;
+}
+
+#jersey1 {
+    background: rgb(235, 235, 230);
+    width: 300px;
+}
+
+.jersey1-bg {
+    background-image: url(images/fantasy\ bg.jpeg);
+    height: 190px;
+    width: 250px;
+}
+
+.jersey1-bg h2 {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+.jersey1-bg h4 {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: lighter;
+    width: 210px;
+}
+
+.jersey2-bg {
+    background-image: url(images/fantasy\ bg.jpeg);
+    height: 190px;
+    width: 300px;
+}
+
+.jersey2-bg h2 {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+.jersey2-bg h4 {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: lighter;
+    width: 210px;
+}
+
+#Latest {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+
+
+
+#ronaldo {
+    background: linear-gradient(to right, rgb(3, 244, 221), rgb(0, 253, 153));
+    width: 1155px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.ronaldo-bg {
+    display: flex;
+}
+
+.ronaldo-bg  img {
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 380px;
+}
+
+.ronaldo-cont  a {
+    color: black;
+    text-decoration: none;
+}
+
+.ronaldo-cont h1 {
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.ronaldo-cont h4 {
+    width: 600px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.ronaldo-cont h5 {
+    width: 600px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+/* transition needed */
+
+
+#line-through .line {
+    height: 4px;
+    background: linear-gradient(to right, rgb(53, 191, 255), rgb(150, 61, 255));
+    margin-top: 20px;
+    width: 1300px;
+    margin-left: 40px;
+}
+
+
+.sponsor .sponsor1 {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.sponsor .sponsor1  .leads-sponsor h4 {
+    margin-left: -10px;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.sponsor .sponsor1 .barclays-sponsor h4 {
+    margin-left: 15px;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+
+.sponsor .sponsor1 .budwiser-sponsor h4 {
+    margin-left: 15px;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.sponsor .sponsor1 .castrol-sponsor h4 {
+    margin-left: -10px;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+
+.sponsor .sponsor1 .hublot-sponsor h4 {
+    margin-left: -10px;
+    font-size: 10px;
+}
+
+.sponsor .sponsor1 .nike-sponsor h4 {
+    margin-left: 5px;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.sponsor .sponsor1 .oracle-sponsor h4 {
+    margin-left: 5px;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+
+
+.bottom-line {
+    height: 1px;
+    background-color: black;
+    margin-top: 50px;
+    width: 1300px;
+    margin-left: 30px;
+    opacity: 50%;
+}
+
+.sponsor2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.sponsor2 h4 {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+
+
+#cont-foot {
+    background-color: rgb(55, 0, 60);
+    margin-top: 50px;
+    display: flex;
+}
+
+.pl h3 {
+    margin-left: 50px;
+    color: white;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.pl1  a { 
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+.pl1 li {
+    list-style: none;
+    margin-left: 30px;
+    color: white;
+    font-size: 10px;
+    font-weight: 50px;
+    justify-items: space-between;
+    margin-top: 10px;
+}
+
+.pl1:hover li {
+    color: red;
+}
+
+
+.fy {
+
+}
+
+.fy h3 {
+    margin-left: 50px;
+    color: white;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.fy1 a {
+    text-decoration: none;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+.fy1 li {
+    list-style: none;
+    margin-left: 60px;
+    color: white;
+    font-size: 10px;
+    font-weight: 50px;
+    justify-items: space-between;
+    margin-top: 10px;
+}
+
+.foot-comm h3 {
+    margin-left: 50px;
+    color: white;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.foot-comm a {
+    text-decoration: none;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+.foot-comm li {
+    list-style: none;
+    margin-left: 60px;
+    color: white;
+    font-size: 10px;
+    font-weight: 50px;
+    justify-items: space-between;
+    margin-top: 10px;
+}
+
+
+
+.fy1 li {
+    list-style: none;
+    margin-left: 60px;
+    color: white;
+    font-size: 10px;
+    font-weight: 50px;
+    justify-items: space-between;
+    margin-top: 10px;
+}
+
+.foot-comm h3 {
+    margin-left: 50px;
+    color: white;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.foot-comm a {
+    text-decoration: none;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+.foot-comm li {
+    list-style: none;
+    margin-left: 60px;
+    color: white;
+    font-size: 10px;
+    font-weight: 50px;
+    justify-items: space-between;
+    margin-top: 10px;
+}
+
+
+
+.abt h3 {
+    margin-left: 50px;
+    color: white;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.abt a {
+    text-decoration: none;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+.abt li {
+    list-style: none;
+    margin-left: 60px;
+    color: white;
+    font-size: 10px;
+    font-weight: 50px;
+    justify-items: space-between;
+    margin-top: 10px;
+}
+
+
+.stats h3 {
+    margin-left: 50px;
+    color: white;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.stats a {
+    text-decoration: none;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+.stats li {
+    list-style: none;
+    margin-left: 60px;
+    color: white;
+    font-size: 10px;
+    font-weight: 50px;
+    justify-items: space-between;
+    margin-top: 10px;
+}
+
+
+
+.more h3 {
+    margin-left: 50px;
+    color: white;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.more1 a {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+.more1 li {
+    list-style: none;
+    margin-left: 30px;
+    color: white;
+    font-size: 10px;
+    font-weight: 50px;
+    justify-items: space-between;
+    margin-top: 10px;
+}
+
+.more1:hover li {
+    color: red;
+}
+
+
+#social {
+    background: rgb(55, 0, 60);
+}
+
+#social h3 {
+    color: white;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.social1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.social1 li {
+    list-style: none;
+    margin-left: 40px;
+    font-weight: lighter;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
